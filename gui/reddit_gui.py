@@ -119,7 +119,7 @@ class RedditGui:
         inputs = {"client_id": None,  # Needs valid information to work
                   "client_secret": None,
                   "user_agent": None,  # Needs valid information to work
-                  "subreddit": self.subreddit_textfield.toPlainText(),
+                  "subreddit": self.subreddit_textfield.text(),
                   "sort": str(self.sort_combobox.currentText()).lower(),
                   "time": str(self.time_combobox.currentText()).lower(),
                   "amount": int(self.amount_spinbox.value()),
