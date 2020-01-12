@@ -1,7 +1,6 @@
-"""Reddit Gui
+"""Reddit GUI
 
-Module containing the Reddit Gui class that inherits from the
-Gui class to create a Gui to the save_reddit().
+Module containing the RedditGui class.
 """
 
 
